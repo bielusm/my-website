@@ -5,10 +5,13 @@ const TopNav = () => {
   const links = (
     <>
       <NavItem>
-        <NavLink href="#contact">Contact Me</NavLink>
+        <NavLink href="#aboutMe">About Me</NavLink>
       </NavItem>
       <NavItem>
         <NavLink href="#projects">My Projects</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="#contact">Contact Me</NavLink>
       </NavItem>
     </>
   );

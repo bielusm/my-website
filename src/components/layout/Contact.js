@@ -4,7 +4,7 @@ import { Container, Card, CardHeader, CardBody } from 'reactstrap';
 const Contact = () => {
   return (
     <div id="contact">
-      <h2>Contact Me:</h2>
+      <h1>Contact Me:</h1>
       <p>
         If you need to reach me I can be easily contacted at my email
         <a href="mailto:mitchellbielus@gmail.com"> mitchellbielus@gmail.com</a>
