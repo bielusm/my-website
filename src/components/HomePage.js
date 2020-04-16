@@ -9,12 +9,12 @@ const HomePage = () => {
   return (
     <>
       <div className="bg-img"></div>
+      <TopNav />
       <div className="bg-grey">
-        <TopNav />
-        <Container>
-          <AboutMe />
-          <Projects />
-          <Contact />
+        <Container className="page">
+          <AboutMe className="module" />
+          <Contact className="module" />
+          <Projects className="module" />
         </Container>
       </div>
     </>

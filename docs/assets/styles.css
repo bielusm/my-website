@@ -5,7 +5,7 @@
 html,
 body,
 #app {
-  height: 100%;
+  min-height: 100%;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -27,15 +27,22 @@ h1 {
 
 .bg-grey {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-  height: 200%;
+  min-height: 100%;
   width: 100%;
   z-index: 1;
-  position: relative;
   backdrop-filter: blur(10px);
+  padding-bottom: 20px;
 }
 
-.bg-blue {
-  background: rgba(0, 0, 100, 0.8);
+.page {
+  padding-top: 50px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 a.navbar-brand {
@@ -54,39 +61,26 @@ a.navbar-brand:hover {
   color: grey;
 }
 
-.card {
-  background-color: black;
+.module {
+  margin-bottom: 40px;
 }
 
-.project {
-  border: 1px black solid;
-  height: 300px;
-  width: 300px;
+.card-img-top {
+  height: 338px;
+  width: 100%;
 }
 
-.noDot {
-  list-style: none;
-}
-
-.stockProject {
-  background: url('./assets/stocks.jpg');
-  background-size: cover;
-}
-
-.todoProject {
-  background: url('./assets/notebook.jpg');
-  background-size: cover;
+.card > * > *,
+.card > * > * > *,
+.card > * {
+  color: black;
 }
 
 #profilePicture {
   background: url('./assets/me.jpg');
   background-size: cover;
-  margin: auto;
   border-radius: 90px;
   width: 100px;
   height: 100px;
-}
-
-.profiletext {
-  margin: auto;
+  margin: 10px 65px;
 }

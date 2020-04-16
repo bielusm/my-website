@@ -8,17 +8,17 @@ const TopNav = () => {
         <NavLink href="#aboutMe">About Me</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="#projects">My Projects</NavLink>
+        <NavLink href="#contact">Contact</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="#contact">Contact Me</NavLink>
+        <NavLink href="#projects">My Projects</NavLink>
       </NavItem>
     </>
   );
 
   return (
     <Navbar>
-      <NavbarBrand>Mitchell Bielus</NavbarBrand>
+      <NavbarBrand href="#">Mitchell Bielus</NavbarBrand>
       <Nav>{links}</Nav>
     </Navbar>
   );

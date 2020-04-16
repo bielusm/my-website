@@ -1,15 +1,15 @@
 import React from 'react';
 import { Container, Card, CardHeader, CardBody } from 'reactstrap';
 
-const Contact = () => {
+const Contact = ({ className }) => {
   return (
-    <div id="contact">
+    <div id="contact" className={className}>
       <h1>Contact Me:</h1>
-      <p>
-        If you need to reach me I can be easily contacted at my email
+      <h3>
+        Email:
         <a href="mailto:mitchellbielus@gmail.com"> mitchellbielus@gmail.com</a>
-      </p>
-      <h4>Other platforms I'm on</h4>
+      </h3>
+      <h2>Other platforms I'm on</h2>
       <h3 styles={{ width: '50%', justifyContent: 'center' }}>
         <a href="https://github.com/bielusm">
           <i className="fab fa-github"></i>

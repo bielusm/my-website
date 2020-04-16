@@ -1,42 +1,44 @@
 import React from 'react';
-import { Card, CardBody, CardHeader, Container, Col, Row } from 'reactstrap';
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  Container,
+  Col,
+  Row,
+  CardImg,
+  ListGroup,
+  ListGroupItem,
+  Button,
+} from 'reactstrap';
 
-const Project = ({
-  backgroundClass,
-  name,
-  desc,
-  skills,
-  githubLink,
-  siteLink,
-}) => {
+const Project = ({ imgUrl, name, desc, skills, githubLink, siteLink }) => {
   return (
-    <Card className={`project ${backgroundClass}`}>
-      <CardBody>
-        <h3>{name}</h3>
+    <Card>
+      <CardImg src={imgUrl} top />
+      <CardHeader>
+        {name}
         <p>{desc}</p>
-        <Container>
-          <Row>
-            <Col>
-              <h4>Skills used:</h4>
-              <ul className="noDot">
-                {skills.map((skill) => {
-                  return <li key={skill}>{skill}</li>;
-                })}
-              </ul>
-            </Col>
-            <Col>
-              <h4>Find it online:</h4>
-              <ul className="noDot">
-                <a href={githubLink}>
-                  <li>GitHub</li>
-                </a>
-                <a href={siteLink}>
-                  <li>Website</li>
-                </a>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
+      </CardHeader>
+      <CardBody>
+        <h4>Skills:</h4>
+        <ListGroup>
+          {skills.map((skill) => {
+            return <ListGroupItem key={skill}>{skill}</ListGroupItem>;
+          })}
+        </ListGroup>
+        <div className="my-3">
+          <a href={githubLink}>
+            <Button color="success" className="mr-3">
+              GitHub
+            </Button>
+          </a>
+          {siteLink && (
+            <a href={siteLink}>
+              <Button color="success">Site</Button>
+            </a>
+          )}
+        </div>
       </CardBody>
     </Card>
   );
