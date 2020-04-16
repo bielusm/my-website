@@ -14,7 +14,7 @@ import {
 
 const Project = ({ imgUrl, name, desc, skills, githubLink, siteLink }) => {
   return (
-    <Card>
+    <Card className="project">
       <CardImg src={imgUrl} top />
       <CardHeader>
         {name}

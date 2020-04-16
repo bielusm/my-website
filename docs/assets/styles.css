@@ -44,7 +44,7 @@ h1 {
   bottom: 0;
   left: 0;
   right: 0;
-  overflow: auto; 
+  overflow: auto;
 }
 
 .navbar {
@@ -75,9 +75,10 @@ a.navbar-brand:hover {
   margin-bottom: 40px;
 }
 
-.card-img-top {
-  height: 338px;
-  width: 100%;
+.project {
+  width: 300px;
+  display: inline-block;
+  margin: 20px;
 }
 
 .card > * > *,

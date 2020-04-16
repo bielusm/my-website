@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 const Projects = ({ className }) => {
   return (
     <div className={className} id="projects">
-      <h1>My Projects</h1>
+      <h1>My Projects:</h1>
       <h2 className="my-4">Web</h2>
       <Container>
         <Row>
