@@ -11,12 +11,14 @@ const HomePage = () => {
       <div className="bg-img"></div>
       <TopNav />
       <div className="bg-grey">
-        <Container className="page">
+            </div>
+            <div className="page">
+        <Container>
           <AboutMe className="module" />
           <Contact className="module" />
           <Projects className="module" />
         </Container>
-      </div>
+</div>
     </>
   );
 };
