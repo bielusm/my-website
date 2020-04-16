@@ -93,5 +93,65 @@ a.navbar-brand:hover {
   border-radius: 90px;
   width: 100px;
   height: 100px;
-  margin: 10px 65px;
+  margin: 10px auto;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    height: 100px;
+  }
+
+  .page {
+    top: 100px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    height: 70px;
+  }
+
+  .page {
+    top: 70px;
+  }
+
+  .navbar-brand {
+    font-size: 14px;
+  }
+
+  .nav-link {
+    font-size: 10px;
+  }
+
+  .project {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
 }
