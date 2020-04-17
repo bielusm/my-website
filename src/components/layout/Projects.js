@@ -40,8 +40,8 @@ const Projects = ({ className }) => {
               name="Spotify-Manager"
               desc="Easily mange your spotify playlists"
               skills={['React', 'Spotify API']}
-              githubLink="https://github.com/bielusm/TODO-List"
-              siteLink="https://bielusm-todo-list.herokuapp.com/"
+              githubLink="https://github.com/bielusm/Spotify-App"
+              siteLink="https://spotify.bielusm.me/"
               imgUrl="/assets/spotify-app.png"
             ></Project>
           </Col>
