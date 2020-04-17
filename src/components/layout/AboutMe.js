@@ -11,7 +11,7 @@ const AboutMe = ({ className }) => {
         <h3>Mitchell Bielus</h3>
         <h3> Web-Developer and Programmer</h3>
         <h3>
-          <a href="/assets/resume.pdf">Resume</a>
+          <a href="/assets/web resume.pdf">Resume</a>
         </h3>
       </center>
 
