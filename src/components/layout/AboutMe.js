@@ -1,28 +1,25 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
 
 const AboutMe = ({ className }) => {
   return (
     <div className={className}>
-      <h1 id="aboutMe">About Me:</h1>
+      <h1 id="about-me">About Me:</h1>
 
-      <Container>
-        <div id="profilePicture"></div>
+      <div id="profilePicture"></div>
 
-        <center className="profiletext">
-          <p>
-            Mitchell Bielus
-            <br />
-            Web-Developer and Programmer
-          </p>
-        </center>
-
+      <center className="profiletext">
+        <h3>Mitchell Bielus</h3>
+        <h3> Web-Developer and Programmer</h3>
         <h3>
-          My name is Mitchell Bielus and I am a web developer and programmer. My
-          primary language is JavaScript, but I'm also interested in learning
-          new languages outside of my comfort zone
+          <a href="/assets/resume.pdf">Resume</a>
         </h3>
-      </Container>
+      </center>
+
+      <h4>
+        My name is Mitchell Bielus and I am a web developer and programmer. My
+        primary language is JavaScript, but I'm also interested in learning new
+        languages outside of my comfort zone.
+      </h4>
     </div>
   );
 };

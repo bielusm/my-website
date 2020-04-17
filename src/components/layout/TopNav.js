@@ -5,7 +5,7 @@ const TopNav = () => {
   const links = (
     <>
       <NavItem>
-        <NavLink href="#aboutMe">About Me</NavLink>
+        <NavLink href="#about-me">About Me</NavLink>
       </NavItem>
       <NavItem>
         <NavLink href="#contact">Contact</NavLink>
@@ -18,7 +18,7 @@ const TopNav = () => {
 
   return (
     <Navbar>
-      <NavbarBrand href="#">Mitchell Bielus</NavbarBrand>
+      <NavbarBrand href="#about-me">Mitchell Bielus</NavbarBrand>
       <Nav>{links}</Nav>
     </Navbar>
   );

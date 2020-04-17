@@ -96,6 +96,10 @@ a.navbar-brand:hover {
   margin: 10px auto;
 }
 
+.profiletext {
+  margin-bottom: 40px;
+}
+
 @media (max-width: 500px) {
   .navbar {
     height: 100px;

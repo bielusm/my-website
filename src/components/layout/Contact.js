@@ -6,8 +6,8 @@ const Contact = ({ className }) => {
     <div id="contact" className={className}>
       <h1>Contact Me:</h1>
       <h3>
-        Email:
-        <a href="mailto:mitchellbielus@gmail.com"> mitchellbielus@gmail.com</a>
+        Email:{' '}
+        <a href="mailto:mitchellbielus@gmail.com">mitchellbielus@gmail.com</a>
       </h3>
       <h2>Other platforms I'm on</h2>
       <h3 styles={{ width: '50%', justifyContent: 'center' }}>
