@@ -53,6 +53,7 @@ h1 {
 }
 
 .page {
+  scroll-behavior: smooth;
   position: absolute;
   z-index: 1;
   top: 50px;
