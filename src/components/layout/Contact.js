@@ -1,9 +1,9 @@
 import React from 'react';
-import { Container, Card, CardHeader, CardBody } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 const Contact = ({ className }) => {
   return (
-    <div id="contact" className={className}>
+    <Container id="contact" className={className}>
       <h1>Contact Me:</h1>
       <h3>
         Email:{' '}
@@ -18,7 +18,7 @@ const Contact = ({ className }) => {
           <i className="fab fa-linkedin ml-4"></i>
         </a>
       </h3>
-    </div>
+    </Container>
   );
 };
 

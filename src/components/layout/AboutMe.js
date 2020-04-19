@@ -1,8 +1,9 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 
 const AboutMe = ({ className }) => {
   return (
-    <div className={className} id="about-me">
+    <Container className={className} id="about-me">
       <div id="profilePicture"></div>
 
       <center className="profiletext">
@@ -18,7 +19,7 @@ const AboutMe = ({ className }) => {
         primary language is JavaScript, but I'm also interested in learning new
         languages outside of my comfort zone.
       </p>
-    </div>
+    </Container>
   );
 };
 
