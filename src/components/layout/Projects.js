@@ -63,7 +63,7 @@ const Projects = ({ className }) => {
               desc="A demonstation of various pathfinding algorithms"
               skills={['Python', 'Tkinter']}
               githubLink="https://github.com/bielusm/Path-Finder"
-              imgUrl="http://img.youtube.com/vi/HtkbLyzISnk/0.jpg"
+              imgUrl="https://img.youtube.com/vi/HtkbLyzISnk/0.jpg"
               videoUrl="https://www.youtube.com/watch?v=HtkbLyzISnk"
             ></Project>
           </Col>
