@@ -12,7 +12,15 @@ import {
   Button,
 } from 'reactstrap';
 
-const Project = ({ imgUrl, name, desc, skills, githubLink, siteLink }) => {
+const Project = ({
+  imgUrl,
+  name,
+  desc,
+  skills,
+  githubLink,
+  siteLink,
+  videoUrl,
+}) => {
   return (
     <Card className="project">
       <CardImg src={imgUrl} top />
@@ -36,6 +44,12 @@ const Project = ({ imgUrl, name, desc, skills, githubLink, siteLink }) => {
           {siteLink && (
             <a href={siteLink}>
               <Button color="success">Site</Button>
+            </a>
+          )}
+
+          {videoUrl && (
+            <a href={videoUrl}>
+              <Button color="success">Video</Button>
             </a>
           )}
         </div>

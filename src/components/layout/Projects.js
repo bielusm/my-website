@@ -46,7 +46,7 @@ const Projects = ({ className }) => {
             ></Project>
           </Col>
         </Row>
-        <h2 className="my-4">C++</h2>
+        <h2 className="my-4">Software</h2>
         <Row>
           <Col>
             <Project
@@ -57,7 +57,16 @@ const Projects = ({ className }) => {
               imgUrl="/assets/sph-app.png"
             ></Project>
           </Col>
-          <Col></Col>
+          <Col>
+            <Project
+              name="Python Pathfinding Program"
+              desc="A demonstation of various pathfinding algorithms"
+              skills={['Python', 'Tkinter']}
+              githubLink="https://github.com/bielusm/Path-Finder"
+              imgUrl="http://img.youtube.com/vi/HtkbLyzISnk/0.jpg"
+              videoUrl="https://www.youtube.com/watch?v=HtkbLyzISnk"
+            ></Project>
+          </Col>
           <Col></Col>
         </Row>
       </Container>
