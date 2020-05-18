@@ -61,10 +61,10 @@ const Projects = ({ className }) => {
             <Project
               name="Python Pathfinding Program"
               desc="A demonstation of various pathfinding algorithms"
-              skills={['Python', 'Tkinter']}
+              skills={['Python', 'Pygame']}
               githubLink="https://github.com/bielusm/Path-Finder"
-              imgUrl="https://img.youtube.com/vi/HtkbLyzISnk/0.jpg"
-              videoUrl="https://www.youtube.com/watch?v=HtkbLyzISnk"
+              imgUrl="https://img.youtube.com/vi/yBv3xPY8nXQ/0.jpg"
+              videoUrl="https://www.youtube.com/watch?v=yBv3xPY8nXQ"
             ></Project>
           </Col>
           <Col></Col>
